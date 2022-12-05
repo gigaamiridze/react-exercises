@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+// Components
+import HelloWorld from './exercises/00-Hello-World/HelloWorld';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
+    <HelloWorld />
   </React.StrictMode>
 );
 
