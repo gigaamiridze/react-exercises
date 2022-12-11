@@ -6,12 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import HelloWorld from './exercises/00-Hello-World/HelloWorld';
 import Person from './exercises/01-Hello-JSX/Person';
 import Form from './exercises/Form/Form';
+import Menu from './exercises/02-Rendering/Menu';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <HelloWorld />
     <Person />
+    <Menu />
     <Form />
   </React.StrictMode>
 );
