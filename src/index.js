@@ -5,8 +5,9 @@ import reportWebVitals from './reportWebVitals';
 // Components
 import HelloWorld from './exercises/00-Hello-World/HelloWorld';
 import Person from './exercises/01-Hello-JSX/Person';
-import Form from './exercises/Form/Form';
 import Menu from './exercises/02-Rendering/Menu';
+import App from './exercises/02.1-Rendering-From-Object/App';
+import Form from './exercises/Form/Form';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <HelloWorld />
     <Person />
     <Menu />
+    <App />
     <Form />
   </React.StrictMode>
 );
