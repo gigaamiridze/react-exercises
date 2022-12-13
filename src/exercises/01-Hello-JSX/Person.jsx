@@ -1,9 +1,3 @@
-/*
-  Exercise:
-    - Include that variable inside the react function the hard coded word Felix with the variable
-      name (remember the curly brackets {}).
-*/
-
 import React from 'react';
 
 function Person() {
