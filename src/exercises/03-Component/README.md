@@ -1,4 +1,4 @@
-**Component** | Exercise Description:
+### **Component** | Exercise Description:
 
 Let's create another component (function) called **`<BootstrapCard />`** that outputs the following HTML:
 

@@ -1,4 +1,4 @@
-**Rendering From Object** | Exercise Description:
+### **Rendering From Object** | Exercise Description:
 
 Now lets use a complex variable to render our JSX, let's say we have the following JS Object containing a customer information:
 

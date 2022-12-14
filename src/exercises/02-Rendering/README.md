@@ -1,4 +1,4 @@
-**Rendering** | Exercise Description:
+### **Rendering** | Exercise Description:
 
 - Render `DATA.title` in an `<h3>`
 - Render a `<ul>` with each of `DATA.items` as an `<li>`
