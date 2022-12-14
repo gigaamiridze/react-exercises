@@ -7,6 +7,7 @@ import HelloWorld from './exercises/00-Hello-World/HelloWorld';
 import Person from './exercises/01-Hello-JSX/Person';
 import Menu from './exercises/02-Rendering/Menu';
 import App from './exercises/02.1-Rendering-From-Object/App';
+import BootstrapCard from './exercises/03-Component/BootstrapCard';
 import Form from './exercises/Form/Form';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
     <Person />
     <Menu />
     <App />
+    <BootstrapCard />
     <Form />
   </React.StrictMode>
 );
