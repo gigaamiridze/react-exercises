@@ -21,7 +21,7 @@ function Menu() {
 
   return (
     <>
-      <h3>DATA.title</h3>
+      <h3>{DATA.title}</h3>
       <ul>{items}</ul>
     </>
   );
