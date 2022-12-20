@@ -8,6 +8,7 @@ import Person from './exercises/01-Hello-JSX/Person';
 import Menu from './exercises/02-Rendering/Menu';
 import App from './exercises/02.1-Rendering-From-Object/App';
 import BootstrapCard from './exercises/03-Component/BootstrapCard';
+import PersonProps from './exercises/03.1-Component-Props/PersonProps';
 import Form from './exercises/Form/Form';
 import FetchData from './exercises/Fetch-Data/FetchData';
 
@@ -19,6 +20,8 @@ root.render(
     <Menu />
     <App />
     <BootstrapCard />
+    <PersonProps name='Paul' surname='Carty' age={22} />
+    <PersonProps name='Bob' surname='Dylan' age={33} />
     <Form />
     <FetchData />
   </React.StrictMode>
