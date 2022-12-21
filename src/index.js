@@ -10,6 +10,7 @@ import App from './exercises/02.1-Rendering-From-Object/App';
 import BootstrapCard from './exercises/03-Component/BootstrapCard';
 import PersonProps from './exercises/03.1-Component-Props/PersonProps';
 import MappingArray from './exercises/04-Mapping-Array/MappingArray';
+import MappingObject from './exercises/04.1-Mapping-Object/MappingObject';
 import Form from './exercises/Form/Form';
 import FetchData from './exercises/Fetch-Data/FetchData';
 
@@ -24,6 +25,7 @@ root.render(
     <PersonProps name='Paul' surname='Carty' age={22} />
     <PersonProps name='Bob' surname='Dylan' age={33} />
     <MappingArray />
+    <MappingObject />
     <Form />
     <FetchData />
   </React.StrictMode>
