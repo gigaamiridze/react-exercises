@@ -13,6 +13,7 @@ import MappingArray from './exercises/04-Mapping-Array/MappingArray';
 import MappingObject from './exercises/04.1-Mapping-Object/MappingObject';
 import Form from './exercises/Form/Form';
 import FetchData from './exercises/Fetch-Data/FetchData';
+import StateLifting from './exercises/StateLifting/StateLifting';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,6 +29,7 @@ root.render(
     <MappingObject />
     <Form />
     <FetchData />
+    <StateLifting />
   </React.StrictMode>
 );
 
