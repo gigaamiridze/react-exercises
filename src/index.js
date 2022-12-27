@@ -12,6 +12,7 @@ import PersonProps from './exercises/03.1-Component-Props/PersonProps';
 import MappingArray from './exercises/04-Mapping-Array/MappingArray';
 import MappingObject from './exercises/04.1-Mapping-Object/MappingObject';
 import Jumbotron from './exercises/05-Jumbotron/Jumbotron';
+import Alert from './exercises/06-Alert-Component/Alert';
 import Form from './exercises/Form/Form';
 import FetchData from './exercises/Fetch-Data/FetchData';
 import StateLifting from './exercises/StateLifting/StateLifting';
@@ -34,6 +35,7 @@ root.render(
     <PersonProps name='Bob' surname='Dylan' age={33} />
     <MappingArray />
     <MappingObject />
+    <Alert text="OMG! Something really bad has happended!" />
     <Form />
     <FetchData />
     <StateLifting />
