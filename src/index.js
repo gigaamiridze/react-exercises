@@ -11,6 +11,7 @@ import BootstrapCard from './exercises/03-Component/BootstrapCard';
 import PersonProps from './exercises/03.1-Component-Props/PersonProps';
 import MappingArray from './exercises/04-Mapping-Array/MappingArray';
 import MappingObject from './exercises/04.1-Mapping-Object/MappingObject';
+import Jumbotron from './exercises/05-Jumbotron/Jumbotron';
 import Form from './exercises/Form/Form';
 import FetchData from './exercises/Fetch-Data/FetchData';
 import StateLifting from './exercises/StateLifting/StateLifting';
@@ -23,6 +24,12 @@ root.render(
     <Menu />
     <App />
     <BootstrapCard />
+    <Jumbotron
+      title="Welcome to react"
+      description="React is the most popular rendering library in the world"
+      buttonLabel="Go to the official website"
+      buttonURL="https://reactjs.org/"
+    />
     <PersonProps name='Paul' surname='Carty' age={22} />
     <PersonProps name='Bob' surname='Dylan' age={33} />
     <MappingArray />
