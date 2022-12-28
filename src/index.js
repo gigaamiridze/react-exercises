@@ -13,6 +13,7 @@ import MappingArray from './exercises/04-Mapping-Array/MappingArray';
 import MappingObject from './exercises/04.1-Mapping-Object/MappingObject';
 import Jumbotron from './exercises/05-Jumbotron/Jumbotron';
 import Alert from './exercises/06-Alert-Component/Alert';
+import Button from './exercises/07-Conditional-Rendering/Button';
 import Form from './exercises/Form/Form';
 import FetchData from './exercises/Fetch-Data/FetchData';
 import StateLifting from './exercises/StateLifting/StateLifting';
@@ -36,6 +37,8 @@ root.render(
     <MappingArray />
     <MappingObject />
     <Alert text="OMG! Something really bad has happended!" />
+    <Button title="Submit" isVisible={true} />
+    <Button title="Reset" isVisible={false} />
     <Form />
     <FetchData />
     <StateLifting />
