@@ -14,6 +14,7 @@ import MappingObject from './exercises/04.1-Mapping-Object/MappingObject';
 import Jumbotron from './exercises/05-Jumbotron/Jumbotron';
 import Alert from './exercises/06-Alert-Component/Alert';
 import Button from './exercises/07-Conditional-Rendering/Button';
+import BootstrapAlert from './exercises/07.1-Conditional-Rendering/BootstrapAlert';
 import Form from './exercises/Form/Form';
 import FetchData from './exercises/Fetch-Data/FetchData';
 import StateLifting from './exercises/StateLifting/StateLifting';
@@ -37,6 +38,8 @@ root.render(
     <MappingArray />
     <MappingObject />
     <Alert text="OMG! Something really bad has happended!" />
+    <BootstrapAlert text="This is a primary alert—check it out!" color="red" />
+    <BootstrapAlert text="This is a primary alert—check it out!" color="orange" />
     <Button title="Submit" isVisible={true} />
     <Button title="Reset" isVisible={false} />
     <Form />
