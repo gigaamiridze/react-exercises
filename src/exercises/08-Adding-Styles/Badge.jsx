@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Badge(props) {
   const { label, number } = props;
@@ -21,6 +20,7 @@ const styles = {
     outline: 'none',
     border: 'none',
     borderRadius: 5,
+    marginBottom: 10,
   }
 }
 
