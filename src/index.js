@@ -17,6 +17,7 @@ import Button from './exercises/07-Conditional-Rendering/Button';
 import BootstrapAlert from './exercises/07.1-Conditional-Rendering/BootstrapAlert';
 import Badge from './exercises/08-Adding-Styles/Badge';
 import AlertBadge from './exercises/08.1-Second-Styles/AlertBadge';
+import Event from './exercises/09-Listening-Events/Event';
 import Form from './exercises/Form/Form';
 import FetchData from './exercises/Fetch-Data/FetchData';
 import StateLifting from './exercises/StateLifting/StateLifting';
@@ -35,6 +36,7 @@ root.render(
       buttonLabel="Go to the official website"
       buttonURL="https://reactjs.org/"
     />
+    <Event />
     <PersonProps name='Paul' surname='Carty' age={22} />
     <PersonProps name='Bob' surname='Dylan' age={33} />
     <MappingArray />
